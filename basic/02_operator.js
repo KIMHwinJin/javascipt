@@ -1,7 +1,7 @@
 // +
-console.log("10") //문자열
+console.log('10') //문자열
 console.log(10) //숫자
-console.log(typeof "10" + 2) //숫자
+console.log(typeof '10' + 2) //숫자
 
 //2. 산술연산자
 console.log(100 + 10)
@@ -66,20 +66,20 @@ b = !b
 console.log(b)
 
 // 7.동등 / 일치 연산자
-const value1 = "100"
+const value1 = '100'
 const value2 = 100
 
 console.log(value1 == value2)
 console.log(value1 === value2)
 
 console.clear()
-console.log("\\\\\\\\\\\\")
+console.log('\\\\\\\\\\\\')
 console.log(0 == false)
 console.log(1 == true)
 console.log(0 === false)
 console.log(1 === true)
-console.log("" == false)
-console.log("" === false)
+console.log('' == false)
+console.log('' === false)
 console.log(null == undefined)
 console.log(null === undefined)
-console.log("\\\\\\\\\\\\")
+console.log('\\\\\\\\\\\\')

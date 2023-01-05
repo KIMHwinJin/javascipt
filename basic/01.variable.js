@@ -1,4 +1,4 @@
-console.log("123")
+console.log('123')
 // var,let,const
 // scope=블럭 {...}
 
@@ -7,8 +7,8 @@ console.log("123")
 // 블럭을 무시한다
 
 {
-    var user = "Jonh"
-    user = "Alice"
+    var user = 'Jonh'
+    user = 'Alice'
     console.log(user)
 }
 
@@ -18,10 +18,10 @@ console.log(user)
 // 읽기 쓰기 가능하다
 
 {
-    let title = "html"
+    let title = 'html'
     console.log(title)
 
-    title = "css"
+    title = 'css'
     console.log(title)
 }
 // console.log(title)
@@ -30,7 +30,7 @@ console.log(user)
 // 상수-읽기만 가능 - 변하지않는다
 
 {
-    const subject = "야인시대"
+    const subject = '야인시대'
     console.log(subject)
 
     // subject = "배트맨"
@@ -57,15 +57,15 @@ console.log(`값은 ${num}이고, 타입은 ${typeof num}입니다.`)
 
 const a = 1 / 0
 const b = -25 / 0
-const c = "html" / 10
+const c = 'html' / 10
 
 console.log(a)
 console.log(b)
 console.log(c)
 
 // String
-const first_name = "jonh"
-const last_name = "snow"
+const first_name = 'jonh'
+const last_name = 'snow'
 const full_name = first_name + last_name
 console.log(full_name)
 console.log(`${first_name} ${last_name}`)

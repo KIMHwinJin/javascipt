@@ -34,11 +34,11 @@ h1 {
     position: absolute;
     right: 0;
     top: 50%;
-    transform: translate(-50%);
+    transform: translateY(-50%);
     font-size: 16px;
 }
 
-.accordion .content h2::after {
+.accordion .content.active h2::after {
     content: '\e91a';
 }
 
@@ -53,5 +53,6 @@ h1 {
     padding: 20px 0;
     overflow: hidden;
 }
-/* \e913:+ */
-/* \e91a:- */
+
+/* \e913 : + */
+/* \e91a : - */
